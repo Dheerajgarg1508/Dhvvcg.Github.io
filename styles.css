@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header Styling */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header .strip {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .strip h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header .strip h2 {
+    margin: 10px 0 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+
+img {
+    float: left;
+    padding-top: 6em;
+    height: 995px;
+    width: 500px;
+    margin-left: 20px; /* Adjust this value to move the image further to the right */
+    transition: transform 0.3s ease-out, opacity 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform, opacity, and box-shadow changes */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow applied by default */
+    
+}
+
+img:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+    transform: translateY(-10px); /* Move image up by 10px on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Increase shadow on hover */
+    z-index: 2;
+}
+
+main {
+    padding-top: 2em;
+    text-align: right;
+    padding: 30px 0;
+    
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center; /* Aligns text to the center */
+
+}
+
+/* Styling for Verse Sections */
+.verse p {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.1em;
+    color: #336699; /* Cool blue color */
+}
+
+/* Styling for Chorus Sections */
+.chorus p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #009933; /* Green color */
+    margin-left:27em ;
+}
+
+/* Styling for Bridge Section */
+.bridge p {
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #cc0066; /* Purple color */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+}
+
+footer .strip {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.button {
+    
+    padding: 8px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc75ba;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    float: left;
+    margin-top: 66em;
+    margin-left: -31em;
+}
+
+.button:hover {
+    background-color: #e01d9f; /* Darker blue on hover */
+}
